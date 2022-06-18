@@ -28,7 +28,7 @@ public class WaitUtil {
 
 	public void implicitWait() {
 		
-		
+		 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(Constants.IMPLICIT_WAIT));
 	}
 
 	public void waitforElementClick(WebElement element) {

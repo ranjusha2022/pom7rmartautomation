@@ -4,16 +4,15 @@
   <test thread-count="5" name="Run(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.sevenrmart.qa.testcases.VerifyLoginPageTest">
+      <class name="com.sevenrmart.qa.testcases.VerifyExpenceCategoryPageTest">
         <methods>
-          <include name="beforeTest"/>
+          <include name="searchCategory"/>
           <include name="afterTest"/>
+          <include name="addNewCategory"/>
           <include name="setUp"/>
-          <include name="f"/>
           <include name="takeScreenShotOnFailure"/>
-          <include name="loginAction"/>
         </methods>
-      </class> <!-- com.sevenrmart.qa.testcases.VerifyLoginPageTest -->
+      </class> <!-- com.sevenrmart.qa.testcases.VerifyExpenceCategoryPageTest -->
     </classes>
   </test> <!-- Run(failed) -->
 </suite> <!-- Failed suite [Suite] -->

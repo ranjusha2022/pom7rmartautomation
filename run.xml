@@ -4,7 +4,7 @@
   <test thread-count="5" name="Run">
 	<parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.sevenrmart.qa.testcases.VerifyLoginPageTest"/>
+      <class name="com.sevenrmart.qa.testcases.VerifyExpenceCategoryPageTest"/>
     </classes>
   </test> <!-- Run -->
 </suite> <!-- Suite -->
